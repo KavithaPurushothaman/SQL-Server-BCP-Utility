@@ -9,10 +9,10 @@ CREATE TABLE [SALES].[dbo].[Customers] (
 
 
 --To generate the format file, Open the command prompt and give the below command.
---BCP Sales.dbo.Customers format nul -c -f C:\SQL_data\customers_format.fmt -T
+--> BCP Sales.dbo.Customers format nul -c -f C:\SQL_data\customers_format.fmt -T
 
 --To generate XML format file, specify the option -x as below
---BCP Sales.dbo.Customers format nul -c -x -f C:\SQL_data\customers_xml_format.xml -T
+--> BCP Sales.dbo.Customers format nul -c -x -f C:\SQL_data\customers_xml_format.xml -T
 
 
 BULK INSERT [SALES].[dbo].[Customers]   
